@@ -4,3 +4,10 @@
 header {
     background-image: url("img/homeoffice.jpg");
 }
+
+/********************************
+    BODY
+*********************************/
+body {
+    width: 50%;
+}
