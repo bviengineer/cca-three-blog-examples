@@ -1,0 +1,135 @@
+h2 {
+    padding-left: 2rem;
+}
+
+p {
+    padding-left: 2rem;
+}
+
+#more-articles {
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: underline;
+}
+
+#more-articles-div {
+    padding-top: 5rem;
+}
+
+#popular-posts {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#digest-email-div {
+    width: 33%;
+    background-color: lightblue;
+    padding-bottom: 10rem;
+    opacity: 0.8;
+}
+
+#digest-email-div p, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#digest-email-div form {
+    padding-left: 10rem;
+}
+
+#digest-email {
+    width: 70%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#digest-email-btn {
+    margin-top: 1rem;
+    height: 4rem;
+    width: 70%;
+}
+
+#top-developers-div {
+    background-color: #1B78C4;
+    opacity: 0.8; 
+    height: 20rem;
+    width: 30rem;
+    position: absolute;
+    left: 5rem;
+    top: 3rem;
+    z-index: 1;
+}
+
+#top-developers-div p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#top-developers-div h4 {
+    padding-bottom: 0;
+    color: white;
+    font-weight: bold;
+}
+
+#person-coding {
+    height: 25rem;
+}
+
+#get-started-btn {
+    margin-left: 2rem;
+    background-color: white;
+    color: #008dff;
+    font-weight: bold;
+}
+
+
+/*******************************************
+    SUBSCRIPTION SECTION
+********************************************/
+h4 {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+#email {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.subscribe-btn{
+    width: 80%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.subscription-area {
+    padding: 3rem;
+}
+
+
+/*******************************************
+    FOOTER SECTION
+********************************************/
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.4rem;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.footer-links {
+    padding: 3rem;
+}
