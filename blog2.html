@@ -9,13 +9,13 @@
     <title>Document</title>
     <link rel="stylesheet"
     <!-- Bootstrap 4 CDN Link -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
     <link rel="stylesheet" href="/css/blog2.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default"> 
+        <nav class="navbar"> 
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed"
@@ -26,14 +26,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand nav-items-padding" href="#">BLOG 2</a>
+                    <a class="navbar-brand" href="#">BLOG 2</a>
                 </div> <!--closing div for navbar-header-->
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li class="nav-items-padding"><a href="#">Blog 2</a></li>
-                        <li class="nav-items-padding"><a href="blog3.html">Blog 3</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">Blog 2</a></li>
+                        <li><a href="blog3.html">Blog 3</a></li>
                     </ul>
+                    <h1>Tech Blog</h1>
+                    <h2>Tech is Fun</h2>
                 </div> <!--closing div for #main-nav-->
             </div> <!--closing div for container-fluid-->
         </nav>
@@ -42,28 +44,28 @@
         <main class="container">
             <div class="row">
                 <article class="col-md-12">
-                    <h2>Article 1</h2>
+                    <h3>Article 1</h3>
                     <p> ipsum dolor sit amet, consectetur adipiscing elit. Cras a magna sed diam faucibus vehicula et sit amet odio. Curabitur tincidunt in nisi id elementum. <br> posted by Admin on August 22, 2017</p>
                 </article>
             </div>
            <hr>
             <div class="row">
                 <article class="col-md-12">
-                    <h2>Article 2</h2>
+                    <h3>Article 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a magna sed diam faucibus vehicula et sit amet odio. Curabitur tincidunt in nisi id elementum.<br>posted by Admin on August 22, 2017</p>
                 </article>
             </div>
             <hr>
             <div class="row">
                 <article class="col-md-12">
-                    <h2>Article 3</h2>
+                    <h3>Article 3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a magna sed diam faucibus vehicula et sit amet odio. Curabitur tincidunt in nisi id elementum.<br> posted by Admin on August 22, 2017</p>
                 </article>
             </div>
             <hr>
             <div class="row">
                 <article class="col-md-12"><br>
-                    <h2>Article 4</h2>
+                    <h3>Article 4</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a magna sed.<br>  posted by Admin on August 22, 2017</p>
                 </article>
             </div>
@@ -78,18 +80,18 @@
         </main>
     </section>
     <footer>
-        <section class="row" id="social-media-row">
-            <div class="col-md-4 social-media-icon">
-                <p>social media 1</p>
-            </div>
-            <div class="col-md-4 social-media-icon">
-                <p>social media 2</p>
-            </div>
-            <div class="col-md-4 social-media-icon">
-                <p>social media 3</p>
-            </div>
+        <section>
+            <ul id="social-media-lists">
+                <li><img src="img/twitter.png" alt="Twitter Logo" class="social-media-icon"></a></li>
+                <li><img src="img/facebook.png" alt="Facebook Logo" class="social-media-icon"></a></li>
+                <li><img src="img/github.png" alt="GitHub Logo" class="social-media-icon"></a></li>
+            </ul>
         </section>
-        <p><small>&copy 2017 BVIDeV All Rights Reserved</small></p>
+        <div class="row">
+            <div class="col-md-12" id="footer-text">
+                <p><small>&copy 2017 BVIDeV All Rights Reserved</small></p>
+            </div>                
+        </div>
     </footer>
     
         <!-- Bootstrap 4 JS CDN Link -->
