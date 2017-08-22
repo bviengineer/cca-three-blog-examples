@@ -1,0 +1,84 @@
+/************************************
+    HEADER
+*************************************/
+header {
+    background-color: darkcyan;
+    height: 20rem;
+    padding-top: 0%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 7rem;
+    padding-top: 5rem;
+}
+
+h2 {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+/**********************************
+    BODY
+***********************************/
+article, aside {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+aside {
+    background-color: yellowgreen;
+    height: 30rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+aside p {
+    font-size: 0.9rem;
+}
+
+span {
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    color: white
+}
+
+#subscribe-heading {
+    font-size: 2rem;
+}
+
+#email {
+    width: 10rem;
+}
+
+#submit-btn {
+    color: yellowgreen;
+    margin-top: 1rem;
+    background-color: black;
+    font-weight: bold;
+}
+
+
+
+/**********************************
+    FOOTER
+***********************************/
+footer {
+    text-align: center;
+    background-color: lightgrey;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
