@@ -1,5 +1,5 @@
 /************************************
-    HEADER
+    HEADER & NAV
 *************************************/
 header {
     background-color: darkcyan;
@@ -11,7 +11,7 @@ h1 {
     color: white;
     text-align: center;
     font-size: 7rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 h2 {
@@ -19,6 +19,33 @@ h2 {
     text-align: center;
     font-size: 4rem;
     font-style: italic;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:active {
+    color: white;
 }
 
 /**********************************
